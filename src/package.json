@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-docker",
+  "version": "1.0.0",
+  "description": "Punto 9 del trabajo practico 1 de TNT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "emanuel balcazar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
