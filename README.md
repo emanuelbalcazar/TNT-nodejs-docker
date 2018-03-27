@@ -7,3 +7,7 @@ Ejecutar con:
 Verificar en: 
 `http://localhost:8000/info`
 
+Con docker compose:
+`docker-compose up -d --build`
+`docker-compose ps`
+`docker-compose exec nodejs bash`
