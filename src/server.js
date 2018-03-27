@@ -1,3 +1,4 @@
+// server.js - application main module.
 const express = require('express');
 const app = express();
 
