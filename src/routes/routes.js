@@ -6,7 +6,7 @@ const connector = require('../database/connector');
 const User = require('../models/user');
 
 // service information path.
-router.get('/info', function (req, res) {
+router.get('/info', (req, res) => {
     var info = { name: "docker nodejs", version: "1.0" };
     defaultCallback(res, false, info);
 });

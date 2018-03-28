@@ -4,11 +4,11 @@ var url = require('../config/database').url;
 
 var connection = mongoose.connect(url);
 
-mongoose.connection.on('connected', function () {
+mongoose.connection.on('connected', () => {
     console.log('[Mongoose] - conectado en:', url);
 });
 
-mongoose.connection.on('error',function (err) {
+mongoose.connection.on('error', (err) => {
     console.log('[Mongoose] - error de conexion:', err);
     process.exit(1);
 });
