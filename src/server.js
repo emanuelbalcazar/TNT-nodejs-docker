@@ -1,7 +1,13 @@
 // server.js - application main module.
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
 
+// configure all environments.
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// declare all routes.
 var router = require('./routes/routes');
 app.use(router);
 
