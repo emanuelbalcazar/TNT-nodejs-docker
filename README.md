@@ -9,7 +9,7 @@ Ejecutar con:
 Verificar en: 
 `http://localhost:8000/info`
 
-Connstruir y desplegar con docker compose:
+Construir y desplegar con docker compose:
 `docker-compose up -d --build`
 
 Utilidades:
